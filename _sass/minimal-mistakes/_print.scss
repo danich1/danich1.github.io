@@ -14,7 +14,7 @@
 
   * {
     printer-colors: exact;
-    color-adjust: exact !important;
+    color-adjust: exact;
     -webkit-print-color-adjust: exact !important;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -29,7 +29,6 @@
   }
 
   body {
-    page-break-after:always;
     height: 100%;
     margin: 0 auto;
     background: #fff !important;
@@ -275,8 +274,8 @@
    .resume
    {
 
-    .print-only{
-      display: inline;
+    .print_only{
+      display: inline !important;
     }
 
     .level-bar,
