@@ -13,8 +13,6 @@
   }
 
   * {
-    printer-colors: exact;
-    color-adjust: exact;
     -webkit-print-color-adjust: exact !important;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -261,16 +259,15 @@
 
 
   @-moz-document url-prefix() {
-    .fa-inverse:before {
-      color: #FFFFFF !important;
+    .fa-inverse {
+      background-color: #FFFFFF !important;
     }
   }
 
-.page__footer{
-   page-break-before:always;
-   page-break-after:always;
-}
-    
+  .fa-inverse {
+      color: #FFFFFF
+    }
+
    .resume
    {
 
@@ -293,12 +290,6 @@
 
      .fa-circle{
       color: #000000 !important;
-     }
-
-    .fa-inverse,
-    .fa-inverse:after,
-    .fa-inverse:before {
-       color: #FFFFFF !important;
      }
     
     h2{
@@ -349,7 +340,11 @@
       margin-top: -3px !important;
     }
 
+    .skillset {
+        .item {
+            margin-bottom: -5px !important;
+        }
+      }
+
    }
-
-
 }
