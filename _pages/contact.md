@@ -4,8 +4,7 @@ layout: single
 title: Contact
 ---
 
-Feel free to contact me for any questions. 
-Please click on my <a href="https://hihello.me">digital business card</a> to get my contact information or use the links on the right.
+Feel free to contact me via my <a href="https://hihello.me">digital business card</a> provided below or use the links on the right.
 For open source projects, please open an issue or pull request on <a href="https://github.com">Github</a>.
 <div class="center">
 <!-- Begin HiHello Email Signature -->

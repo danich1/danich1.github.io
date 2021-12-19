@@ -4,7 +4,7 @@ layout: single
 title: About
 ---
 
-David is a 5th year Ph.D. candidate at the Unversity of Pennsylvania (Penn) in the <a href="https://www.med.upenn.edu/gcb/">Genomics and Computational Biology</a>program. 
+David is a 6th year Ph.D. candidate at the Unversity of Pennsylvania (Penn) in the <a href="https://www.med.upenn.edu/gcb/">Genomics and Computational Biology</a>program. 
 He utilizes Deep Learning and Natural Language Processing techniques to analyze biomedical text.
 At Penn, he joined the <a href="https://greenelab.com">Greenelab</a> in 2017 and was appointed as a trainee on the T32 Computational Genomics training grant from the National Human Genome Research Institute (NHGRI).
 He has presented at the International Society for Computational Biology (ISCB) Rocky Mountain Bioinformatics  conference, Cold Spring Harbor's Biological Data Science Symposium, and was invited to speak at Elsevier's Labs Online Lecture series. 

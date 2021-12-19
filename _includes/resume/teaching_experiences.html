@@ -9,30 +9,6 @@
     Teaching Experience
   </h2>
 
-  {% if page.url == '/resume/' %}
-  {% for experience in research limit:5 %}
-  <div class="item">
-
-    <div class="meta">
-
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
-    </div><!--//meta-->
-
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
-
-  </div><!--//item-->
-  {% endfor %}
-
-  {% else %}
-
   {% for experience in research %}
   <div class="item">
 
@@ -41,6 +17,7 @@
       <div class="upper-row">
         <h3 class="job-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
+        <div class="meta"> {{ experience.location }} </div>
       </div><!--//upper-row-->
 
     </div><!--//meta-->
@@ -53,7 +30,6 @@
 
   </div><!--//item-->
   {% endfor %}
-  {% endif %}
 
 </section><!--//section-->
 {% endif %}

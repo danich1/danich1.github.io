@@ -16,7 +16,7 @@ research_projects_one:
      - image_path: /assets/images/biovectors_screenshot.png
        title: Biovectors
        url: "https://github.com/greenelab/biovectors/"
-       excerpt: "Detecting semantic shifts through time by using word embeddings trained on pubmed Abstracts."
+       excerpt: "Detecting semantic shifts through time by using word embeddings trained on pubmed abstracts."
        btn_label: |
         <i class="fab fa-fw fa-github" aria-hidden="true"></i> View Repo
        btn_class: "btn--primary"
@@ -46,12 +46,12 @@ research_projects_four:
        btn_class: "btn--primary"
 ---
 
-# Website Resources
+## Website Resources
 
 {% include feature_row id="website_one" type="left" %}
 
 
-# Research Projects
+## Research Projects
 
 {% include feature_row id="research_projects_one" type="left"%}
 {% include feature_row id="research_projects_two" type="right"%}

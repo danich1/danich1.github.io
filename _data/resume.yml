@@ -10,41 +10,34 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      David is a 5th year Ph.D. candidate at the Unversity of Pennsylvania (Penn) in the <a href="https://www.med.upenn.edu/gcb/">Genomics and Computational Biology </a>program. 
-      He utilizes Deep Learning and Natural Language Processing techniques to analyze biomedical text.
-      At Penn, he joined the <a href="https://greenelab.com">Greenelab</a> in 2017 and was appointed as a trainee on the T32 Computational Genomics training grant from the National Human Genome Research Institute (NHGRI).
-      He has presented at the International Society for Computational Biology (ISCB)  Rocky Mountain Bioinformatics conference, Cold Spring Harbor's Biological Data Science Symposium, and was invited to speak at Elsevier's Labs Online Lecture series. 
-      He graduated from the University of Maryland Baltimore County (UMBC) with a B.S. degree in Computer Science and a minor in Bioinformatics. 
-      During his time at UMBC, he was a part of the Meyerhoff Scholars program (M23) and was appointed as a Marc U*Star Scholar.
-      As he advances towards the end of his Ph.D. journey, he seeks to become a data scientist where he can continue to improve and use his analytical skills.
+      Computational biology researcher with 12+ years of programming experience and 4+ years of experience in data analytics and visualization.
+      Most of my research projects involve analyzing over terabytes worth of biomedical text for downstream natural language processing (NLP) tasks such as corpora comparison and text extraction.
 
 resume-summary: 
     title: Summary
     summary: |
-      Computational biology researcher with ample experience in designing, training and implementing deep learning models to analyze biomedical text.
-      - 12+ years of programming experience with a specialty in python
-      - 3+ years of experience in data preprocessing/visualization
+      Computational biology researcher with 12+ years of programming experience and 4+ years of experience in data analytics and visualization.
+      Most of my research projects involve analyzing over terabytes worth of biomedical text for downstream natural language processing (NLP) tasks such as corpora comparison and text extraction.
 
 education:
     - degree: Ph.D. in Genomics and Computational Biology
       university: University of Pennsylvania
-      time: 2016 - May 2022 (expected)
+      time: Aug 2016 - May 2022 (expected)
       details: 
     - degree: Postbaccalaureate Program
       university: University of Pennsylvania
-      time: 2015 - 2016
+      time: Jun 2015 - Jun 2016
       details: 
     - degree: B.S. in Computer Science and Minor in Bioinformatics
       university: University of Maryland Baltimore County
-      time: 2011 - 2015
+      time: Aug 2011 - May 2015
       details:
 
 research_experience:
     - role: Graduate Researcher
       time: Fall 2016 - May 2022 (expected)
+      location: University of Pennsylvania (Genomics and Computational Biology Program)
       details: |
-        - University of Pennsylvania's Genomics and Computational Biology Program
-        - Mentor: Dr. Casey Greene
         - Designed and executed text-processing pipelines to perform stopword removal and lemmatization on biomedical text.
         - Trained Word2Vec/Doc2Vec, recurrent neural networks, and transformers to analyze published biomedical text.
         - Used statistical modeling to observe token semantic changes within open access biomedical abstracts. 
@@ -52,9 +45,8 @@ research_experience:
 
     - role: Postbaccalaureate Researcher
       time: Fall 2015-Summer 2016
+      location: University of Pennsylvania (Penn Prep)
       details: |
-        - University of Pennsylvania's Postbaccalaureate Program
-        - Mentor: Dr. Benjamin F. Voight
         - Used statistical methods to determine which protein domains are easily targeted by small molecules, drugs.
         - Created a website that will provide a quick snapshot of drug-gene interactions.
         - Assisting post-doctoral fellow in researching spider genomes to understand how the
@@ -62,78 +54,80 @@ research_experience:
 
     - role: Undergrad Researcher
       time: Fall 2013-2015
+      location: University of Maryland Baltimore County (UMBC)
       details: |
-          - University of Maryland Baltimore County
-          - Mentor: Dr. Ivan Erill
           - Characterized population-level transcriptional regulation by assisting with the creation of
           a bioinformatic pipeline that quantifies transcription factor enrichment in metagenomic data.
 
     - role: Summer Research Intern
       time: Summer 2014
+      location: University of Pennsylvania (SUIP)
       details: |
-          - University of Pennsylvania (SUIP) 
-          - Mentor: Dr. Benjamin F. Voight
           - Created a Perl pipeline that utilized Mendelian Randomization and Approximate Bayesian Computation 
           to discover if having an elevated level of triglycerides causes heart disease.
 
     - role: Summer Research Intern
       time: Summer 2013
+      location: Harvard University and Massachusetts Institute of Technology Bioinformatics and Integrative Genomics (BIG)
       details: |
-          - Harvard University and Massachusetts Institute of Technology Bioinformatics and Integrative Genomics (BIG)
-          - Mentor: Dr. Heidi Rehm
           - Explored a more efficient measure to track DNA samples. Researched the use of SNP (single nucleotide polymorphisms) 
           information to act as a DNA barcode to keep track of patient samples that have undergone different gene sequencing workflows.
 
     - role: Summer Research Intern
       time: Summer 2012
+      location: University of Pittsburgh and Carnegie Mellon University (TecBio)
       details: |
-       - University of Pittsburgh and Carnegie Mellon University - TecBio
-       - Mentor: Dr. Christopher Langmead
-       - Conducted machine learning to assess algorithms to determine the best strategies to
-       identify lung cancer in patients as early as possible.
+       - Conducted machine learning to assess algorithms to determine the best strategies to identify lung cancer in patients as early as possible.
 
 teaching_experience:
     - role: Advised Rotation student for Research Lab
       time: Sept 2020 - Dec 2020
+      location: University of Pennsylvania (Genomics and Computational Biology Program)
       details: |
           - Guided rotation student on conducting and executing a research project that analyzed biomedical abstracts to model disease-gene trajectories through time.
 
     - role: Student Advising for 1st and 2nd Year Ph.D. Students
       time: August 2018 - August 2020
+      location: University of Pennsylvania (Genomics and Computational Biology Program)
       details: |
-          - Advised first and second year Ph.D. Students on which classes to take
-          - Advised first-year Ph.D. Students about the mechanics of lab rotations
+          - Advised first and second year Ph.D. students on which classes to take for the fall and spring semester
+          - Advised first year Ph.D. students about the mechanics of lab rotations
 
     - role: Python BootCamp/Teaching Assistant
       time: August 2019
+      location: University of Pennsylvania (Genomics and Computational Biology Program)
       details: |
           - Assisted in teaching Ph.D. students how to program in python.
 
     - role: Advanced Computational Biology/Tutor
       time: April 2019 - May 2019
+      location: University of Pennsylvania (Genomics and Computational Biology Program)
       details: |
           - Assisted a Ph.D. student in learning advanced computational biology topics.
           - Topics ranged from machine learning algorithms to various statistical algorithms
 
     - role: Python BootCamp/Teaching Assistant
       time: September 2017
+      location: University of Pennsylvania (Genomics and Computational Biology Program)
       details: |
           - Assisted in teaching Ph.D. students how to program in python.
 
     - role: Data Structures/Tutor
       time: Sept 2013 - May 2014
+      location: University of Maryland Baltimore County (UMBC)
       details: |
           - Tutored and assisted students in studying/programming various data structures such as binary search trees to hash tables.
 
     - role: Math Tutor
       time: Sept 2012 - May 2013
+      location: University of Maryland Baltimore County (UMBC)
       details: |
           - Worked in walk-in tutoring sessions for university services.
           - Tutored students in math classes from Algebra I to Calculus II
 
     - role: Calculus I and II/Learning Assistant
       time: Sept 2012 - May 2013
-      company: 
+      location: University of Maryland Baltimore County (UMBC)
       details: |
          - Helped professor assist students in homework during office hours
 
@@ -162,16 +156,16 @@ honors:
       time: June 2019 - August 2021
       location: National Human Genome Research Institute (NHGRI)
 
+    - award: Meyerhoff Scholar (M23)
+      time: August 2011 - June 2015
+      location: University of Maryland Baltimore County
+
     - award: Marc U*Star Scholar
       time: Sept 2014 -June 2015
       location: University of Maryland Baltimore County
 
     - award: National Security Agency (NSA) Scholar
       time: Sept 2012 - June 2014
-      location: University of Maryland Baltimore County
-
-    - award: Meyerhoff Scholar (M23)
-      time: August 2011 - June 2015
       location: University of Maryland Baltimore County
 
     - award: Thomson Reuters Award HackMIT
@@ -271,28 +265,37 @@ skills:
 
     toolset:
       - name: Github
-        level: 100%
+        description: |
+          - Used git version control for all research projects and papers (Manubot)
+          - Performed code review for coworker's projects
+          - Constructed a precommit pipeline to execute a python linter 
       
       - name: Python
-        level: 100%
-
-      - name: Pytorch/Tensorflow, Transformers
-        level: 90%
-
-      - name: Plotnine/ggplot, Matplotlib/Seaborn, Pandas
-        level: 100%
-
-      - name: Flask/Django
-        level: 50%
-
+        description: |
+          - Used extensively in manipulating large datasets (pandas, plydata) and visualizing data (Plotnine/ggplot, Matplotlib, Seaborn)
+          - Trained deep learning models and transformers (Pytorch/Tensorflow, Transformers)
+          - Implemented databases for data analytics (sqlalchemy, Postgress)
+          - Scraped websites for data retrival and set up own api (Flask, requests, lxml) 
+          - Used Natural Language Processing (NLP) libraries to process and analyze structured text (spaCy, gensim).
+      
       - name: R
-        level: 70%
+        description: |
+          - Moderately used for coding projects in graduate courses
+          - Performed code for various research projects that used this programming language
+          - Used for data manipulation (dplyr) and visualization (ggplot, cowplot)
 
-      - name: C++/C, Java
-        level: 60%
+      - name: Java, C/C++
+        description: |
+          - Moderate knowledge as I used this language for coding projects in undergraduate classes
 
-      - name: Latex
-        level: 75%
+      - name: Web Development
+        description: |
+          - Moderate knowledge in javascript and css coding
+          - Adapted jekyll template (Minimal Mistakes) on github to develop personal website
+
+      - name: Miscellaneous 
+        description: |
+          - Used University of Pennyslvania's computer cluster to perform Big Data Analyses
 
 footer: >
     Template Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
