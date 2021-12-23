@@ -17,26 +17,25 @@ resume-summary:
     title: Summary
     summary: |
       Computational biology researcher with 12+ years of programming experience and 4+ years of experience in data analytics and visualization.
-      Most of my research projects involve analyzing over terabytes worth of biomedical text for downstream natural language processing (NLP) tasks such as corpora comparison and text extraction.
 
 education:
     - degree: Ph.D. in Genomics and Computational Biology
       university: University of Pennsylvania
-      time: Aug 2016 - May 2022 (expected)
+      time: May 2022
       details: 
-    - degree: Postbaccalaureate Program
+    - degree: Postbaccalaureate Program (Penn Prep)
       university: University of Pennsylvania
-      time: Jun 2015 - Jun 2016
+      time: June 2016
       details: 
     - degree: B.S. in Computer Science and Minor in Bioinformatics
       university: University of Maryland Baltimore County
-      time: Aug 2011 - May 2015
+      time: May 2015
       details:
 
 research_experience:
     - role: Graduate Researcher
-      time: Fall 2016 - May 2022 (expected)
-      location: University of Pennsylvania (Genomics and Computational Biology Program)
+      time: August 2016 - May 2022
+      location: University of Pennsylvania
       details: |
         - Designed and executed text-processing pipelines to perform stopword removal and lemmatization on biomedical text.
         - Trained Word2Vec/Doc2Vec, recurrent neural networks, and transformers to analyze published biomedical text.
@@ -44,8 +43,8 @@ research_experience:
         - Assisted in designing an auto-runner pipeline that extracts and processes newly published articles from Pubmed Central Open Access Corpus (PMCOA).
 
     - role: Postbaccalaureate Researcher
-      time: Fall 2015-Summer 2016
-      location: University of Pennsylvania (Penn Prep)
+      time: June 2015 - June 2016
+      location: University of Pennsylvanias
       details: |
         - Used statistical methods to determine which protein domains are easily targeted by small molecules, drugs.
         - Created a website that will provide a quick snapshot of drug-gene interactions.
@@ -53,28 +52,28 @@ research_experience:
         Golden Orb-weaver spider spins and creates intricate webs.
 
     - role: Undergrad Researcher
-      time: Fall 2013-2015
+      time: September 2013 - May 2015
       location: University of Maryland Baltimore County (UMBC)
       details: |
           - Characterized population-level transcriptional regulation by assisting with the creation of
           a bioinformatic pipeline that quantifies transcription factor enrichment in metagenomic data.
 
     - role: Summer Research Intern
-      time: Summer 2014
+      time: June 2014
       location: University of Pennsylvania (SUIP)
       details: |
           - Created a Perl pipeline that utilized Mendelian Randomization and Approximate Bayesian Computation 
           to discover if having an elevated level of triglycerides causes heart disease.
 
     - role: Summer Research Intern
-      time: Summer 2013
+      time: June 2013
       location: Harvard University and Massachusetts Institute of Technology Bioinformatics and Integrative Genomics (BIG)
       details: |
           - Explored a more efficient measure to track DNA samples. Researched the use of SNP (single nucleotide polymorphisms) 
           information to act as a DNA barcode to keep track of patient samples that have undergone different gene sequencing workflows.
 
     - role: Summer Research Intern
-      time: Summer 2012
+      time: June 2012
       location: University of Pittsburgh and Carnegie Mellon University (TecBio)
       details: |
        - Conducted machine learning to assess algorithms to determine the best strategies to identify lung cancer in patients as early as possible.
@@ -137,7 +136,7 @@ publications:
     papers:
       - title: Linguistic Analysis of the bioRxiv Preprint Landscape 
         link: "https://greenelab.github.io/annorxiver_manuscript/"
-        authors: <b>Nicholson, D. N.</b>, Rubinetti, V., Hu, D., Thielk, M., Hunter, L. E.,  Greene, C. S. (In Review)
+        authors: <b>Nicholson, D. N.</b>, Rubinetti, V., Hu, D., Thielk, M., Hunter, L. E.,  Greene, C. S. (Accepted for Publication)
 
       - title: Constructing Knowledge Graphs and Their Biomedical Applications.
         link: "https://doi.org/10.1016/j.csbj.2020.05.017"
@@ -264,38 +263,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Github
-        description: |
-          - Used git version control for all research projects and papers (Manubot)
-          - Performed code review for coworker's projects
-          - Constructed a precommit pipeline to execute a python linter 
-      
-      - name: Python
-        description: |
-          - Used extensively in manipulating large datasets (pandas, plydata) and visualizing data (Plotnine/ggplot, Matplotlib, Seaborn)
-          - Trained deep learning models and transformers (Pytorch/Tensorflow, Transformers)
-          - Implemented databases for data analytics (sqlalchemy, Postgress)
-          - Scraped websites for data retrival and set up own api (Flask, requests, lxml) 
-          - Used Natural Language Processing (NLP) libraries to process and analyze structured text (spaCy, gensim).
-      
-      - name: R
-        description: |
-          - Moderately used for coding projects in graduate courses
-          - Performed code for various research projects that used this programming language
-          - Used for data manipulation (dplyr) and visualization (ggplot, cowplot)
-
-      - name: Java, C/C++
-        description: |
-          - Moderate knowledge as I used this language for coding projects in undergraduate classes
-
-      - name: Web Development
-        description: |
-          - Moderate knowledge in javascript and css coding
-          - Adapted jekyll template (Minimal Mistakes) on github to develop personal website
-
-      - name: Miscellaneous 
-        description: |
-          - Used University of Pennyslvania's computer cluster to perform Big Data Analyses
+      - skill_group:
+        - name: Github
+        - name: Python
+        - name: R
+        - name: SQL
+      - skill_group:
+        - name: Data Visualization
+        - name: Machine Learning
+        - name: Deep Learning, Transformers
+        - name: Natural Language Processing
+        - name: Bayesian Modeling
+      - skill_group:
+        - name: Data Structures
+        - name: Algorithms
+        - name: Parallel Processing
+        - name: XML parsing
+        - name: Web Development, HTML/CSS
 
 footer: >
     Template Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

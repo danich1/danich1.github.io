@@ -10,7 +10,9 @@
   </h2>
 
   {% if page.url == '/resume/' %}
+  <ul>
   {% for experience in research limit: 2 %}
+  <li>
   <div class="item">
 
     <div class="meta">
@@ -30,10 +32,13 @@
     {% endif %}
 
   </div><!--//item-->
+</li>
   {% endfor %}
-
+ </ul>
   {% else %}
+  <ul>
   {% for experience in research %}
+  <li>
   <div class="item">
 
     <div class="meta">
@@ -53,8 +58,9 @@
     {% endif %}
 
   </div><!--//item-->
+  </li>
   {% endfor %}
-
+</ul>
   {% endif %}
 
 </section><!--//section-->
