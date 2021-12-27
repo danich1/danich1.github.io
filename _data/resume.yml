@@ -37,19 +37,17 @@ research_experience:
       time: August 2016 - May 2022
       location: University of Pennsylvania
       details: |
-        - Designed and executed text-processing pipelines to perform stopword removal and lemmatization on biomedical text.
-        - Trained Word2Vec/Doc2Vec, recurrent neural networks, and transformers to analyze published biomedical text.
-        - Used statistical modeling to observe token semantic changes within open access biomedical abstracts. 
-        - Assisted in designing an auto-runner pipeline that extracts and processes newly published articles from Pubmed Central Open Access Corpus (PMCOA).
+        - Designed and implemented parallel processing pipelines that achieved 3x speed up on analyzing terabytes worth of biomedical text.
+        - Used weak supervision for a 1.5x speed up on training deep learning models (recurrent neural networks and transformers) to extraction biomedical relationships from biomedical text.
+        - Applied a k-nearest-neighbor model to provide scientists with a web service that identifies a listing of journals linguistically similar to a preprint of interest. 
+        - Applied time series analysis techniques to discover over 20,000 different timepoints where words have changed their semantic meaning. 
 
     - role: Postbaccalaureate Researcher
       time: June 2015 - June 2016
       location: University of Pennsylvanias
       details: |
-        - Used statistical methods to determine which protein domains are easily targeted by small molecules, drugs.
-        - Created a website that will provide a quick snapshot of drug-gene interactions.
-        - Assisting post-doctoral fellow in researching spider genomes to understand how the
-        Golden Orb-weaver spider spins and creates intricate webs.
+        - Used hypothesis testing (hyper geometric test) to discover over 1000 protein domains that are easily targetable by small molecules and drugs. 
+        - Constructed a bioinformatics pipeline that efficiently discover novel motifs in the Golden Orb-weaver spider genome.
 
     - role: Undergrad Researcher
       time: September 2013 - May 2015
