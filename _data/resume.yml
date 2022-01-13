@@ -38,7 +38,7 @@ research_experience:
       location: University of Pennsylvania
       details: |
         - Designed and implemented parallel processing pipelines that achieved 3x speed up on analyzing terabytes worth of biomedical text.
-        - Used weak supervision for a 1.5x speed up on training deep learning models (recurrent neural networks and transformers) to extraction biomedical relationships from biomedical text.
+        - Used weak supervision for a 1.5x speedup on training deep learning models (recurrent neural networks and transformers) to extraction biomedical relationships from biomedical text.
         - Applied a k-nearest-neighbor model to provide scientists with a web service that identifies a listing of journals linguistically similar to a preprint of interest. 
         - Applied time series analysis techniques to discover over 20,000 different timepoints where words have changed their semantic meaning. 
 
