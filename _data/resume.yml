@@ -10,18 +10,18 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Computational biology researcher with 12+ years of programming experience and 4+ years of experience in data analytics and visualization.
-      Most of my research projects involve analyzing over terabytes worth of biomedical text for downstream natural language processing (NLP) tasks such as corpora comparison and text extraction.
+      Data Scientist with 12+ years of programming experience and 4+ years of experience in data analytics and visualization.
+      The majority of my research projects involve analyzing over terabytes worth of biomedical text for downstream natural language processing (NLP) tasks such as corpora comparison and text extraction.
 
 resume-summary: 
     title: Summary
     summary: |
-      Computational biology researcher with 12+ years of programming experience and 4+ years of experience in data analytics and visualization.
+      Data Scientist with 12+ years of programming experience and 4+ years of experience in data analytics and visualization.
 
 education:
     - degree: Ph.D. in Genomics and Computational Biology
       university: University of Pennsylvania
-      time: May 2022
+      time: June 2022
       details: 
     - degree: Postbaccalaureate Program (Penn Prep)
       university: University of Pennsylvania
@@ -33,6 +33,12 @@ education:
       details:
 
 research_experience:
+    - role: Data Scientist
+      time: June 2022 - Present
+      location: Digital Science
+      details: |
+        - Used textual analysis to help government funders and clients understand of research trends and emerging topics
+
     - role: Graduate Researcher
       time: August 2016 - May 2022
       location: University of Pennsylvania
@@ -132,9 +138,17 @@ publications:
     title: Publications
     intro:
     papers:
-      - title: Linguistic Analysis of the bioRxiv Preprint Landscape 
-        link: "https://greenelab.github.io/annorxiver_manuscript/"
-        authors: <b>Nicholson, D. N.</b>, Rubinetti, V., Hu, D., Thielk, M., Hunter, L. E.,  Greene, C. S. (Accepted for Publication)
+      - title: Changing Word Meanings in Biomedical literature Reveal Pandemics and New Technologies
+        link: "https://www.biorxiv.org/content/10.1101/2022.06.27.497742v1"
+        authors: <b>Nicholson, D. N.</b>, Alquaddoomi, F., Rubinetti, V., Greene, C. S.
+
+      - title: Characterization of the genome and silk-gland transcriptomes of Darwin’s bark spider (Caerostris darwini)
+        link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268660"
+        authors: Babb, P. L., Gregorič, M., Lahens, N. F.,<b> Nicholson, D. N. </b>, Hayashi, C. Y., Higgins, L., Kuntner, M., Agnarsson, I., Voight, B. F. (2022)
+
+      - title: Examining linguistic shifts between preprints and publications 
+        link: "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001470"
+        authors: <b>Nicholson, D. N.</b>, Rubinetti, V., Hu, D., Thielk, M., Hunter, L. E.,  Greene, C. S. (2022)
 
       - title: Constructing Knowledge Graphs and Their Biomedical Applications.
         link: "https://doi.org/10.1016/j.csbj.2020.05.017"
