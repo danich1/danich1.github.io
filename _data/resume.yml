@@ -11,7 +11,8 @@ career-profile:
     title: Career Profile
     summary: |
       Data Scientist with 12+ years of programming experience and 4+ years of experience in data analytics and visualization.
-      The majority of my research projects involve analyzing over terabytes worth of biomedical text for downstream natural language processing (NLP) tasks such as corpora comparison and text extraction.
+      Most of my research projects involved analyzing terabytes worth of biomedical text for downstream Natural Language Processing (NLP) tasks such as corpora comparison and text extraction.
+      Recently, I have shifted focus onto projects designed to perform bibliometric analyses for government funding clients.
 
 resume-summary: 
     title: Summary
@@ -35,25 +36,27 @@ education:
 research_experience:
     - role: Data Scientist
       time: June 2022 - Present
-      location: Digital Science
+      location: Digital Science & Research Solutions, Ltd.
       details: |
-        - Used textual analysis to help government funders and clients understand of research trends and emerging topics
+        - Uses textual analysis to help government funders and clients understand research trends and emerging topics
+        - Worked with machine learning models to perform topical analysis on research grants, publications, etc.
+        - Used Dash to build dashboards that narrate results for government funding clients
 
     - role: Graduate Researcher
-      time: August 2016 - May 2022
+      time: August 2016 - June 2022
       location: University of Pennsylvania
       details: |
-        - Designed and implemented parallel processing pipelines that achieved 3x speed up on analyzing terabytes worth of biomedical text.
-        - Used weak supervision for a 1.5x speedup on training deep learning models (recurrent neural networks and transformers) to extraction biomedical relationships from biomedical text.
+        - Designed and implemented parallel processing pipelines that achieved a 3x speed-up when analyzing terabytes of biomedical text.
+        - Used weak supervision for a 1.5x speed-up when training deep learning models (recurrent neural networks and transformers) to extract biomedical relationships from biomedical text.
         - Applied a k-nearest-neighbor model to provide scientists with a web service that identifies a listing of journals linguistically similar to a preprint of interest. 
-        - Applied time series analysis techniques to discover over 20,000 different timepoints where words have changed their semantic meaning. 
+        - Applied a time series analysis to discover over 20,000 different timepoints where words have changed their semantic meaning. 
 
     - role: Postbaccalaureate Researcher
       time: June 2015 - June 2016
       location: University of Pennsylvanias
       details: |
         - Used hypothesis testing (hyper geometric test) to discover over 1000 protein domains that are easily targetable by small molecules and drugs. 
-        - Constructed a bioinformatics pipeline that efficiently discover novel motifs in the Golden Orb-weaver spider genome.
+        - Constructed a bioinformatics pipeline that efficiently discovers novel motifs in the Golden Orb-weaver spider genome.
 
     - role: Undergrad Researcher
       time: September 2013 - May 2015
@@ -83,13 +86,13 @@ research_experience:
        - Conducted machine learning to assess algorithms to determine the best strategies to identify lung cancer in patients as early as possible.
 
 teaching_experience:
-    - role: Advised Rotation student for Research Lab
+    - role: Advisor for a rotation student for Research Lab
       time: Sept 2020 - Dec 2020
       location: University of Pennsylvania (Genomics and Computational Biology Program)
       details: |
           - Guided rotation student on conducting and executing a research project that analyzed biomedical abstracts to model disease-gene trajectories through time.
 
-    - role: Student Advising for 1st and 2nd Year Ph.D. Students
+    - role: Student Advisor for 1st and 2nd Year Ph.D. Students
       time: August 2018 - August 2020
       location: University of Pennsylvania (Genomics and Computational Biology Program)
       details: |
@@ -138,27 +141,31 @@ publications:
     title: Publications
     intro:
     papers:
-      - title: Changing Word Meanings in Biomedical literature Reveal Pandemics and New Technologies
-        link: "https://www.biorxiv.org/content/10.1101/2022.06.27.497742v1"
-        authors: <b>Nicholson, D. N.</b>, Alquaddoomi, F., Rubinetti, V., Greene, C. S.
+      - title: Unmasking The Language Of Science Through Textual Analyses On Biomedical Preprints And Published PapersOn Biomedical Preprints And Published Papers
+        link: "https://repository.upenn.edu/cgi/viewcontent.cgi?article=6692&context=edissertations"
+        authors: <b>Nicholson, D. N.</b>
 
-      - title: Characterization of the genome and silk-gland transcriptomes of Darwin’s bark spider (Caerostris darwini)
+      - title: Changing Word Meanings in Biomedical Literature Reveal Pandemics and New Technologies
+        link: "https://www.biorxiv.org/content/10.1101/2022.06.27.497742v1"
+        authors: <b>Nicholson, D. N.</b>, Alquaddoomi, F., Rubinetti, V., Greene, C. S. (2022, Preprint)
+
+      - title: Characterization of the Genome and Silk-gland Transcriptomes of Darwin’s Bark Spider (Caerostris darwini)
         link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268660"
         authors: Babb, P. L., Gregorič, M., Lahens, N. F.,<b> Nicholson, D. N. </b>, Hayashi, C. Y., Higgins, L., Kuntner, M., Agnarsson, I., Voight, B. F. (2022)
 
-      - title: Examining linguistic shifts between preprints and publications 
+      - title: Examining Linguistic Shifts between Preprints and Publications
         link: "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001470"
         authors: <b>Nicholson, D. N.</b>, Rubinetti, V., Hu, D., Thielk, M., Hunter, L. E.,  Greene, C. S. (2022)
 
-      - title: Constructing Knowledge Graphs and Their Biomedical Applications.
+      - title: Constructing Knowledge Graphs and Their Biomedical Applications
         link: "https://doi.org/10.1016/j.csbj.2020.05.017"
         authors: <b>Nicholson, D. N.</b>, Greene, C. S. (2020)
 
-      - title: Expanding a Database-derived Biomedical Knowledge Graph via Multi- Relation Extraction from Biomedical Abstracts.
+      - title: Expanding a Database-derived Biomedical Knowledge Graph via Multi- Relation Extraction from Biomedical Abstracts
         link: "https://doi.org/10.1101/730085"
-        authors: <b>Nicholson, D. N.</b>, Himmelstein, D. S., Greene, C. S. (2019, Preprint)
+        authors: <b>Nicholson, D. N.</b>, Himmelstein, D. S., Greene, C. S. (2022)
 
-      - title: The Nephila clavipes genome highlights the diversity of spider silk genes and their complex expression.
+      - title: The Nephila Clavipes Genome Highlights the Diversity of Spider Silk Genes and their Complex Expression
         link: "https://doi.org/10.1038/ng.3852"
         authors: Babb, P. L., Lahens, N. F., Correa-Garhwal, S. M., <b>Nicholson, D. N.</b>, Kim, E.J., Hogenesch, J.B., Kuntner, M., Higgins, L., Hayashi, C. Y., Agnarsson, I., Voight, B.F. (2017)
 
