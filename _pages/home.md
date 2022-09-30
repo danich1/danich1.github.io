@@ -7,7 +7,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg
 title: "David Nicholson"
-excerpt: "Computational Biology researcher focused on applying deep learning and natural language processing techniques to analyze biomedical text."
+excerpt: "Data Scientist who utilizes deep learning models and natural language processing techniques to analyze research text and trends."
 feature_row:
   - image_path: ""
     alt: ""

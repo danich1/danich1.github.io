@@ -24,7 +24,7 @@ research_projects_two:
      - image_path: https://raw.githubusercontent.com/danich1/annorxiver/65ee4a556ab69f2308e5e4d9192905e8cfec3728/figure_generation/output/Figure_2.png
        title: Annorxiver
        url: "https://github.com/greenelab/annorxiver/"
-       excerpt: "Performing a linguistic analysis of the bioRxiv repository Lets add more text to see if this parsing will make more sense."
+       excerpt: "Performing a linguistic analysis of the bioRxiv repository."
        btn_label: |
         <i class="fab fa-fw fa-github" aria-hidden="true"></i> View Repo
        btn_class: "btn--primary"

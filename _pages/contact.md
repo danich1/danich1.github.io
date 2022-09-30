@@ -4,12 +4,12 @@ layout: single
 title: Contact
 ---
 
-Feel free to contact me via my <a href="https://hihello.me">digital business card</a> provided below or use the links on the right.
-For open source projects, please open an issue or pull request on <a href="https://github.com">Github</a>.
+Please use the info within my <a href="https://hihello.me">digital business card (provided below)</a> to contact me.
+If it is business related to any open source projects, please open an issue or pull request using <a href="https://github.com">Github</a>.
+
 <div class="center">
 <!-- Begin HiHello Email Signature -->
-<a href="https://hihello.me/p/6a0de616-e0e7-4fd8-b2ad-f721b6957a0c?f=vcf" rel="noopener noreferrer" target="_blank">
- <img alt="View David Nicholson&apos;s digital business card." src="https://cdn.hihello.me/cards/6a0de616-e0e7-4fd8-b2ad-f721b6957a0c/signature_qrcode.png?generated=1638285768628" height=191 width=276 />
+<a href="https://hihello.me/p/8beb1307-d247-4611-b435-8bd9ca1348c8" rel="noopener" noreferrer target="_blank" style="display: inline-block"><img alt="This is David Nicholson's card. Their email is d.nicholson@digital-science.com." src="https://cdn.hihello.me/cards/8beb1307-d247-4611-b435-8bd9ca1348c8/signature_qrcode.png?generated=1664567744870" width="360" style="display: inline-block; min-height: 100px" />
 </a>
 </div>
 <!-- End HiHello Email signature -->
