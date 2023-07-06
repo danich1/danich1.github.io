@@ -1,0 +1,205 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlecolor][h=1f5b22]
+\definecolor[sectioncolor][h=2e7d32]
+\definecolor[subsectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd\bf, color=titlecolor, align=middle]
+\setuphead[section]      [style=\tfd\bf, color=sectioncolor, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\startsectionlevel[title={David Nicholson},reference={david-nicholson}]
+
+dnicholson329@gmail.com • 412-607-6313 • 11291 Chatterly Loop Apt 104,
+Manassas VA 20109
+
+\startsectionlevel[title={Summary},reference={summary}]
+
+Data Scientist with 13+ years of programming experience and 5+ years of
+experience in data analytics and visualization. Most of my data
+analytics experience has utilized language models and document
+embeddings to gain further insight into biomedical research.
+
+\stopsectionlevel
+
+\startsectionlevel[title={Skills &
+Proficiency},reference={skills-proficiency}]
+
+Github • Python • R • SQL • Data Visualization • Machine Learning • Deep
+Learning • Transformers • Auto Encoders • Clustering • Natural Language
+Processing • Topic Modeling • Bayesian Modeling • Data Structures • Data
+Engineering • GCP Data Engineering •~Databases • Vector Databases •
+Embeddings • Algorithms • Parallel Processing • XML Parsing • Web
+Development
+
+\stopsectionlevel
+
+\startsectionlevel[title={Professional
+Experience},reference={professional-experience}]
+
+{\bf Data Scientist}\crlf
+{\bf Digital Science & Research Solutions, Ltd.}\crlf
+{\bf June 2022 - Present}
+
+\startitemize[packed]
+\item
+  Uses textual analysis to help government funders and clients
+  understand research trends and emerging topics
+\item
+  Worked with machine learning models to perform topical analysis on
+  research grants, publications, etc.
+\item
+  Used Dash to build dashboards that narrate results for government
+  funding clients
+\stopitemize
+
+{\bf Graduate Researcher Scientist}\crlf
+{\bf University of Pennsylvania}\crlf
+{\bf August 2016 - June 2022}
+
+\startitemize[packed]
+\item
+  Designed and implemented parallel processing pipelines that achieved a
+  3x speed-up when analyzing terabytes of biomedical text.
+\item
+  Used weak supervision for a 1.5x speed-up when training deep learning
+  models (recurrent neural networks and transformers) to extract
+  biomedical relationships from biomedical text.
+\item
+  Applied a k-nearest-neighbor model to provide scientists with a web
+  service that identifies a listing of journals linguistically similar
+  to a preprint of interest.
+\item
+  Applied a time series analysis to discover over 20,000 different
+  timepoints where words have changed their semantic meaning.
+\stopitemize
+
+\stopsectionlevel
+
+\startsectionlevel[title={Publications},reference={publications}]
+
+\startitemize[packed]
+\item
+  \goto{Unmasking The Language Of Science Through Textual Analyses On
+  Biomedical Preprints And Published PapersOn Biomedical Preprints And
+  Published
+  Papers}[url(https://repository.upenn.edu/cgi/viewcontent.cgi?article=6692&context=edissertations)]\crlf
+  {\bf Nicholson, D. N.} (2022)
+\item
+  \goto{Changing Word Meanings in Biomedical Literature Reveal Pandemics
+  and New
+  Technologies}[url(https://doi.org/10.1186/s13040-023-00332-2)]\crlf
+  {\bf Nicholson, D. N.} Alquaddoomi, F., Rubinetti, V., Greene, C. S.
+  (2023)\crlf
+\item
+  \goto{Characterization of the Genome and Silk-gland Transcriptomes of
+  Darwin's Bark Spider (Caerostris
+  darwini)}[url(https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268660)]\crlf
+  Babb, P. L., Gregorič, M., Lahens, N. F.,{\bf Nicholson, D. N.},
+  Hayashi, C. Y., Higgins, L., Kuntner, M., Agnarsson, I., Voight, B. F.
+  (2022)\crlf
+\item
+  \goto{Examining Linguistic Shifts between Preprints and
+  Publications}[url(https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001470)]\crlf
+  {\bf Nicholson, D. N.}, Rubinetti, V., Hu, D., Thielk, M., Hunter, L.
+  E., Greene, C. S. (2022)\crlf
+\item
+  \goto{Expanding a Database-derived Biomedical Knowledge Graph via
+  Multi- Relation Extraction from Biomedical
+  Abstracts}[url(https://doi.org/10.1101/730085)]\crlf
+  {\bf Nicholson, D. N.}, Himmelstein, D. S., Greene, C. S. (2022)\crlf
+\item
+  \goto{Constructing Knowledge Graphs and Their Biomedical
+  Applications}[url(https://doi.org/10.1016/j.csbj.2020.05.017)]\crlf
+  {\bf Nicholson, D. N.}, Greene, C. S. (2020)\crlf
+\item
+  \goto{The Nephila Clavipes Genome Highlights the Diversity of Spider
+  Silk Genes and their Complex
+  Expression}[url(https://doi.org/10.1038/ng.3852)]\crlf
+  Babb, P. L., Lahens, N. F., Correa-Garhwal, S. M., {\bf Nicholson, D.
+  N.}, Kim, E.J., Hogenesch, J.B., Kuntner, M., Higgins, L., Hayashi, C.
+  Y., Agnarsson, I., Voight, B.F. (2017)
+\stopitemize
+
+\stopsectionlevel
+
+\startsectionlevel[title={Education},reference={education}]
+
+{\bf Doctor of Philosophy (Ph.D.), Genomics and Computational Biology};
+University of Pennsylvania (Philadelphia, PA)
+
+{\bf Postbaccalaureate Program (Penn Prep)}; University of Pennsylvania
+(Philadelphia, PA)
+
+{\bf Bachelor of Science, Computer Science}; University of Maryland
+Baltimore County (Baltimore, MD)
+
+\stopsectionlevel
+
+\stopsectionlevel
+
+\stoptext
