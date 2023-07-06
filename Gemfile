@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll-paginate", "~> 1.1"
+
 group :jekyll_plugins do
     gem "jekyll-include-cache"
     gem "jekyll-pdf-embed"
@@ -12,3 +13,4 @@ gem "jekyll-feed", "~> 0.15.1"
 
 gem "webrick", "~> 1.7"
 gem "liquid", "~> 4.0.4"
+
