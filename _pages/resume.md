@@ -4,10 +4,8 @@ layout: resume
 title: Resume
 ---
 
-{% include resume/contact.html %}
-{% include resume/resume_summary.html %}
-{% include resume/skills.html %}
-{% include resume/research_experiences.html %}
-{% include resume/education.html %}
-{% include resume/publications.html %}
-{% include resume/honors.html %}
+<a href="{{site.url}}/external_documents/output/david_nicholson_resume.pdf" download="david_nicholson_resume.pdf"> Click here for a printable version!</a>
+
+---
+
+{% include_absolute 'external_documents/input/david_nicholson_resume.md' %}
