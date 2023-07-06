@@ -8,4 +8,4 @@ title: Resume
 
 ---
 
-{% include external_documents/input/david_nicholson_resume.md %}
+{% include input_documents/david_nicholson_resume.md %}
