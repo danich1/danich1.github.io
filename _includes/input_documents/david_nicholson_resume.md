@@ -17,9 +17,10 @@ Professional Experience
 **Digital Science & Research Solutions, Ltd.**  
 **June 2022 - Present**
 
-- Uses textual analysis to help government funders and clients understand research trends and emerging topics
-- Worked with machine learning models to perform topical analysis on research grants, publications, etc.
-- Used Dash to build dashboards that narrate results for government funding clients
+- Constructed a textual processing pipeline to detect drug treatment sentences within biomedical text for pharmaceutical clients.
+- Backtested vector databases to identify which database had the fastest access time in dealing with document embedding vectors. 
+- Utilized deep learning based language models and dimensionality reduction algorithms to uncover research topics and trends for various government funders and clients.
+- Maintained dashboards that summarized research results and trends for government funders and clients
 
 **Graduate Researcher Scientist**  
 **University of Pennsylvania**  
