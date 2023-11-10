@@ -40,16 +40,16 @@ Professional Experience
 ----------
 **Data Scientist**  
 **Digital Science & Research Solutions, Ltd.**  
-**June 2022 - Present**
+June 2022 - Present  
 
-- Constructed a textual processing pipeline to detect drug treatment sentences within biomedical text for pharmaceutical clients.
-- Backtested vector databases to identify which database had the fastest access time in dealing with document embedding vectors. 
-- Utilized deep learning based language models and dimensionality reduction algorithms to uncover research topics and trends for various government funders and clients.
+- Constructed a textual processing pipeline to detect cancer drug treatments using a 64k biomedical document set for pharmaceutical clients.
+- Backtested vector databases to determine which database is most optimal in dealing with 10M+ document embedding vectors. 
+- Utilized a combination of a deep-learning based language model and dimensionality reduction algorithm to uncover research topics and trends for various government funders and clients.
 - Maintained dashboards that summarized research results and trends for government funders and clients
 
 **Graduate Researcher Scientist**  
 **University of Pennsylvania**  
-**August 2016 - June 2022**
+August 2016 - June 2022  
 
 - Designed and implemented parallel processing pipelines that achieved a 3x speed-up when analyzing terabytes of biomedical text.
 - Used weak supervision for a 1.5x speed-up when training deep learning models (recurrent neural networks and transformers) to extract biomedical relationships from biomedical text.
@@ -58,33 +58,33 @@ Professional Experience
 
 **Postbaccalaureate Researcher**  
 **University of Pennsylvania**  
-**June 2015 - June 2016**  
+June 2015 - June 2016  
 
 - Used hypothesis testing (hyper geometric test) to discover over 1000 protein domains that are easily targetable by small molecules and drugs. 
 - Constructed a bioinformatics pipeline that efficiently discovers novel motifs in the Golden Orb-weaver spider genome.
 
 **Undergrad Researcher**  
 **University of Maryland Baltimore County (UMBC)**  
-**September 2013 - May 2015**  
+September 2013 - May 2015  
 
 - Characterized population-level transcriptional regulation by assisting with the creation of a bioinformatic pipeline that quantifies transcription factor enrichment in metagenomic data.
 
 **Summer Research Intern**
 **University of Pennsylvania (SUIP)**
-**June 2014**
+June 2014  
 
 - Created a Perl pipeline that utilized Mendelian Randomization and Approximate Bayesian Computation to discover if having an elevated level of triglycerides causes heart disease.
 
 **Summer Research Intern**  
 **Bioinformatics and Integrative Genomics (BIG)**  
 **Harvard University and Massachusetts Institute of Technology**  
-**June 2013**  
+June 2013  
 
 - Explored a more efficient measure to track DNA samples. Researched the use of SNP (single nucleotide polymorphisms) information to act as a DNA barcode to keep track of patient samples that have undergone different gene sequencing workflows.
 
 **Summer Research Intern**
 **University of Pittsburgh and Carnegie Mellon University (TecBio)**
-**June 2012**
+June 2012  
 
 - Conducted machine learning to assess algorithms to determine the best strategies to identify lung cancer in patients as early as possible.
 
@@ -92,52 +92,52 @@ Teaching Experience
 -------------------
 **Advisor for a rotation student for Research Lab**  
 **University of Pennsylvania (Genomics and Computational Biology Program)**  
-**Sept 2020 - Dec 2020**  
+Sept 2020 - Dec 2020  
 
 - Guided rotation student on conducting and executing a research project that analyzed biomedical abstracts to model disease-gene trajectories through time.
 
 **Student Advisor for 1st and 2nd Year Ph.D. Students**
 **University of Pennsylvania (Genomics and Computational Biology Program)**
-**August 2018 - August 2020**
+August 2018 - August 2020  
 
 - Advised first and second year Ph.D. students on which classes to take for the fall and spring semester
 - Advised first year Ph.D. students about the mechanics of lab rotations
 
 **Python BootCamp/Teaching Assistant**  
 **University of Pennsylvania (Genomics and Computational Biology Program)**  
-**August 2019**  
+August 2019  
 
 - Assisted in teaching Ph.D. students how to program in python.
 
 **Advanced Computational Biology/Tutor**  
 **University of Pennsylvania (Genomics and Computational Biology Program)**  
-**April 2019 - May 2019**  
+April 2019 - May 2019  
 
 - Assisted a Ph.D. student in learning advanced computational biology topics.
 - Topics ranged from machine learning algorithms to various statistical algorithms
 
 **Python BootCamp/Teaching Assistant**  
 **University of Pennsylvania (Genomics and Computational Biology Program)**  
-**September 2017**  
+September 2017  
 
 - Assisted in teaching Ph.D. students how to program in python.
 
 **Data Structures/Tutor**  
 **University of Maryland Baltimore County (UMBC)**  
-**Sept 2013 - May 2014**  
+Sept 2013 - May 2014  
 
 - Tutored and assisted students in studying/programming various data structures such as binary search trees to hash tables.
 
 **Math Tutor**
 **University of Maryland Baltimore County (UMBC)**
-**Sept 2012 - May 2013**
+Sept 2012 - May 2013  
 
 - Worked in walk-in tutoring sessions for university services.
 - Tutored students in math classes from Algebra I to Calculus II
 
 **Calculus I and II/Learning Assistant**
 **University of Maryland Baltimore County (UMBC)**
-**Sept 2012 - May 2013**
+Sept 2012 - May 2013  
 
 - Helped professor assist students in homework during office hours
 
