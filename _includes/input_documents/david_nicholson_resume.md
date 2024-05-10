@@ -16,8 +16,6 @@ Professional Experience
 **Data Scientist**  
 **Digital Science & Research Solutions, Ltd.**  
 June 2022 - Present  
-40 Hours/Week  
-$134,000/Year
 
 - Constructed a textual processing pipeline to detect cancer drug treatments using a 64k biomedical document set for pharmaceutical clients.
 - Backtested vector databases to determine which database is most optimal in dealing with 10M+ document embedding vectors. 
@@ -27,8 +25,6 @@ $134,000/Year
 **Graduate Researcher Scientist**  
 **University of Pennsylvania**  
 August 2016 - June 2022  
-60 Hours/Week  
-$34,000/Year
 
 - Designed and implemented parallel processing pipelines that achieved a 3x speed-up when analyzing terabytes of biomedical text.
 - Used weak supervision for a 1.5x speed-up when training deep learning models (recurrent neural networks and transformers) to extract biomedical relationships from biomedical text.
