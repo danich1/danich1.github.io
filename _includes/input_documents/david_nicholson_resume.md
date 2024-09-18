@@ -5,11 +5,11 @@ dnicholson329@gmail.com • 412-607-6313 • 11291 Chatterly Loop Apt 104, Manas
 
 Summary
 -------
-Data Scientist with 13+ years of programming experience and 5+ years of experience in data analytics and visualization. Most of my data analytics experience has utilized language models and document embeddings to gain further insight into biomedical research. 
+Data Scientist with 15+ years of programming experience and 6+ years of experience in data analytics and visualization. My data analytics experience consisted of using document embeddings to gain further insight into biomedical research. Recently, my experience has grown to include working with large language models, clustering, and other analytics to help government clients better understand biomedical research.
 
 Skills & Proficiency 
 --------------------
-Github • Python • R • SQL • Data Visualization • Machine Learning • Deep Learning • Transformers • Auto Encoders • Clustering • Natural Language Processing • Topic Modeling • Bayesian Modeling • Data Structures • Data Engineering • GCP Data Engineering • Databases • Vector Databases • Embeddings • Algorithms • Parallel Processing • XML Parsing • Web Development
+Github/Gitlab • Python • R • SQL • Google BigQuery • Data Analysis • Machine Learning • Deep Learning • Natural Language Processing • Transformers • Large Language Models • Text Mining • Topic Modeling • Clustering • Knowledge Graphs • Document Embeddings • Data Visualization • ETL Pipelines • API Framework • Databases • Algorithms • Software Development • Parallel Processing • Google Cloud Platform • Dashboards • Continuous Integration (CI/CD) • Docker 
 
 Professional Experience
 ----------
@@ -17,10 +17,13 @@ Professional Experience
 **Digital Science & Research Solutions, Ltd.**  
 June 2022 - Present  
 
-- Constructed a textual processing pipeline to detect cancer drug treatments using a 64k biomedical document set for pharmaceutical clients.
-- Backtested vector databases to determine which database is most optimal in dealing with 10M+ document embedding vectors. 
-- Utilized a combination of a deep-learning based language model and dimensionality reduction algorithm to uncover research topics and trends for various government funders and clients.
-- Maintained dashboards that summarized research results and trends for government funders and clients
+- Constructed a software package to enable fast clustering of document sets, cluster hierarchy generation, and cluster metadata (labels from LLMs, various metrics such as Growth Rate, etc.).
+- Maintained an ETL pipeline design to extract and update over 100GB of document data for the National Institute of Health (NIH) clientele.
+- Designed and implemented a data analysis pipeline designed to cluster an 818k+ document set centered on women’s health for a client affiliated with the National Institute of Health (NIH).
+- Constructed an ETL pipeline designed to detect cancer drug treatments using a 64k+ biomedical document set for a pharmaceutical client.
+- Back-tested vector databases were used to determine which database is most optimal for handling 10M+ document embedding vectors.
+- Constructed a pipeline that used deep learning and dimensionality reduction models to uncover research topics and trends within a 20M+ document set for government clients.
+
 
 **Graduate Researcher Scientist**  
 **University of Pennsylvania**  
@@ -28,8 +31,9 @@ August 2016 - June 2022
 
 - Designed and implemented parallel processing pipelines that achieved a 3x speed-up when analyzing terabytes of biomedical text.
 - Used weak supervision for a 1.5x speed-up when training deep learning models (recurrent neural networks and transformers) to extract biomedical relationships from biomedical text.
-- Applied a k-nearest-neighbor model to provide scientists with a web service that identifies a listing of journals linguistically similar to a preprint of interest.
-- Applied a time series analysis to discover over 20,000 different timepoints where words have changed their semantic meaning.
+- Applied a k-nearest-neighbor model to provide scientists with a web service that lists journals linguistically similar to a preprint of interest.
+- Applied a time series analysis to discover over 20,000 different time points where words have changed their semantic meaning.
+
 
 Publications
 ------------
