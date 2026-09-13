@@ -1,0 +1,36 @@
+name: Build Resume PDF
+
+on:
+    push:
+        branches: main
+
+jobs:
+    build_pdf:
+        runs-on: ubuntu-latest
+        steps:
+          - name: "Check out repository code"
+            uses: actions/checkout@v4
+          
+          - name: "Run Pandoc to Generate Tex Files"
+            uses: docker://pandoc/latex:3.8
+            with:
+              entrypoint: /bin/sh
+              args: >-
+                -c "
+                for f in _includes/input_documents/*.md; do
+                  FILE_NAME=`basename $$f | sed 's/.md//g'`;
+                  echo $$FILE_NAME.pdf; 
+                  pandoc --standalone  --pdf-engine=xelatex  \
+                  --template pandoc-builder-scripts/styles/green_template.tex \
+                  --from markdown --to context \
+                  --variable papersize=A4 \
+                  --output external_documents/output/$$FILE_NAME.pdf $$f > /dev/null; \
+                done
+                "
+          
+          - name: Push Artifact
+            uses: actions/upload-artifact@v4
+            with:
+              name: pdf-test 
+              path: external_documents/ 
+              retention-days: 1
