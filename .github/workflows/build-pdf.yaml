@@ -18,13 +18,13 @@ jobs:
               args: >-
                 -c "
                 for f in _includes/input_documents/*.md; do
-                  FILE_NAME=`basename $$f | sed 's/.md//g'`;
-                  echo $$FILE_NAME.pdf; 
+                  FILE_NAME=`basename ${f} | sed 's/.md//g'`;
+                  echo ${FILE_NAME}.pdf; 
                   pandoc --standalone \
                   --template pandoc-builder-scripts/styles/green_template.tex \
                   --from markdown --to context \
                   --variable papersize=A4 \
-                  --output external_documents/output/$$FILE_NAME.pdf $$f > /dev/null; \
+                  --output external_documents/output/${FILE_NAME.pdf} ${f} > /dev/null; \
                 done
                 "
           
