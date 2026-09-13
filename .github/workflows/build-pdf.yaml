@@ -20,7 +20,7 @@ jobs:
                 for f in _includes/input_documents/*.md; do
                   FILE_NAME=`basename $$f | sed 's/.md//g'`;
                   echo $$FILE_NAME.pdf; 
-                  pandoc --standalone  --pdf-engine=xelatex  \
+                  pandoc --standalone \
                   --template pandoc-builder-scripts/styles/green_template.tex \
                   --from markdown --to context \
                   --variable papersize=A4 \
