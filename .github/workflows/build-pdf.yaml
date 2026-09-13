@@ -2,7 +2,9 @@ name: Build Resume PDF
 
 on:
     push:
-        branches: main
+        branches: 
+          - main
+          - feat/ci_cd
 
 jobs:
     build_pdf:
