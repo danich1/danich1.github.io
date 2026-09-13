@@ -25,7 +25,7 @@ jobs:
                   pandoc ${f} --standalone \
                   --template pandoc-builder-scripts/styles/green_template.tex \
                   --variable papersize=A4 \
-                  --output external_documents/output/${FILE_NAME}.pdf \
+                  --output external_documents/output/${FILE_NAME}.pdf; \
                 done
                 "
           
