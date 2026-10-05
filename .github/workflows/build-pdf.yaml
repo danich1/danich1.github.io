@@ -39,3 +39,11 @@ jobs:
               name: pdf-test 
               path: external_documents/ 
               retention-days: 1
+
+          - name: Push Error
+            if: failure()
+            uses: actions/upload-artifact@v4
+            with:
+                name: failure-logs
+                path: |
+                  /home/runner/texlive/texmf-var/web2c/
