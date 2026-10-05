@@ -28,8 +28,14 @@ jobs:
                 latex 
                 fontawesome5 
                 fontawesome6 
-
           
+          - name: Regenerate ConTeXt Font Cache
+            run: |
+              mtxrun --script font --reload
+
+          - name: List Available Fonts
+            run: mtxrun --script font --list --all
+
           - name: Setup Pandoc
             uses: pandoc/actions/setup@v1
           
