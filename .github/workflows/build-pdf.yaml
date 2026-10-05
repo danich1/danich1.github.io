@@ -28,10 +28,12 @@ jobs:
                 FILE_NAME=`basename $f | sed 's/.md//g'`;
                 echo $FILE_NAME.pdf; 
                 echo pandoc $f --standalone \
+                --from markdown --to context \
                 --template pandoc-builder-scripts/styles/green_template.tex \
                 --variable papersize=A4 \
                 --output external_documents/output/$FILE_NAME.tex;
                 pandoc $f --standalone \
+                --from markdown --to context \
                 --template pandoc-builder-scripts/styles/green_template.tex \
                 --variable papersize=A4 \
                 --output external_documents/output/$FILE_NAME.tex;
