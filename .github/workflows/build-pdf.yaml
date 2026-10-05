@@ -17,7 +17,12 @@ jobs:
             uses: zauguin/install-texlive@v4
             with:
               packages: >
-                context luatex latex fontsize fontsetup fontscale fontch
+                context 
+                luatex 
+                latex 
+                fonts-recommended
+                fonts-extra
+
           
           - name: Setup Pandoc
             uses: pandoc/actions/setup@v1
