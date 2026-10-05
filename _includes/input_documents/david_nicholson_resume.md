@@ -1,15 +1,19 @@
 David Nicholson
 ============
 
-dnicholson329@gmail.com • 412-607-6313 • 11291 Chatterly Loop Apt 104, Manassas VA 20109  
+dnicholson329@gmail.com • 412-607-6313 • Lansdowne PA, 19050 
 
 Summary
 -------
 Data Scientist with 15+ years of programming experience and 6+ years of experience in data analytics and visualization. My data analytics experience consisted of using document embeddings to gain further insight into biomedical research. Recently, my experience has grown to include working with large language models, clustering, and other analytics to help government clients better understand biomedical research.
 
 Skills & Proficiency 
---------------------
-Github/Gitlab • Python • R • SQL • Google BigQuery • Data Analysis • Machine Learning • Deep Learning • Natural Language Processing • Transformers • Large Language Models • Text Mining • Topic Modeling • Clustering • Knowledge Graphs • Document Embeddings • Data Visualization • ETL Pipelines • API Framework • Databases • Algorithms • Software Development • Parallel Processing • Google Cloud Platform • Dashboards • Continuous Integration (CI/CD) • Docker 
+-------------------- 
+- **Machine Learning & NLP**: PyTorch, TensorFlow, Scikit-Learn, Transformers, Large Language Models, Clustering (HDBSCAN, K-Means), Dimensionality Reduction (UMAP), Document Embeddings, Knowledge Graphs, Entity Resolution, Text Extraction and Mining, Automatic Metadata Extraction, Weak Supervision (Snorkel)
+- **Data Engineering & Systems**: Google Bigquery, PostgreSQL, ETL/ELT Pipelines, Parallel Processing (Dask), Linux Server Maintenance
+- **Dashboards & Visualization**: Plotly Dash, Seaborn/Matplotlib, Web Applications (Flask/FastAPI)
+- **Core Infrastructure:** Python, SQL, Git, Docker, CI/CD, AWS/GCP
+
 
 Professional Experience
 ----------
