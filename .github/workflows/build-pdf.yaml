@@ -30,20 +30,17 @@ jobs:
                 echo pandoc $f --standalone \
                 --template pandoc-builder-scripts/styles/green_template.tex \
                 --variable papersize=A4 \
-                --output external_documents/output/$FILE_NAME.tex; \
+                --output external_documents/output/$FILE_NAME.tex;
                 pandoc $f --standalone \
                 --template pandoc-builder-scripts/styles/green_template.tex \
                 --variable papersize=A4 \
-                --output external_documents/output/$FILE_NAME.tex; \
+                --output external_documents/output/$FILE_NAME.tex;
               done
               
           - name: "ECHO ConTeXt to Generate PDF"
             run: | 
-              for f in external_documents/output/*.tex; do
-                echo mtxrun --path=external_documents/output \
-                --result=$FILE_NAME.pdf \
-                --script context $FILE_NAME.tex > external_documents/logs/context_$FILE_NAME.log 2>&1; \
-              done
+              ls external_documents/output/;
+              ls external_documents/output/*tex;
           
           - name: "Run ConTeXt to Generate PDF"
             run: |
@@ -51,7 +48,7 @@ jobs:
                 FILE_NAME=`basename $f | sed 's/.tex//g'`;
                 mtxrun --path=external_documents/output \
                 --result=$FILE_NAME.pdf \
-                --script context $FILE_NAME.tex > external_documents/logs/context_$FILE_NAME.log 2>&1; \
+                --script context $FILE_NAME.tex > external_documents/logs/context_$FILE_NAME.log 2>&1;
               done
 
           - name: Push Artifact
