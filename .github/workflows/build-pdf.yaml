@@ -13,10 +13,15 @@ jobs:
           - name: "Check out repository code"
             uses: actions/checkout@v4
 
-          - name: "Install Dependencies"
+          - name: Setup Pandoc
+            uses: pandoc/actions/setup@v1
+
+          - name: Setup ConTeXt
+            uses: jreleaser/setup-context@v1
+
+          - name: Generate mtxrun Cache
             run: |
-              sudo apt-get update
-              sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+              mtxrun --generate
           
           - name: Install ConTeXt LMTX (and mtxrun)
             run: |
