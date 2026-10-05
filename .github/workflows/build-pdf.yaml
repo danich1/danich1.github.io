@@ -12,7 +12,21 @@ jobs:
         steps:
           - name: "Check out repository code"
             uses: actions/checkout@v4
+
+          - name: "Install Dependencies"
+            run: |
+              sudo apt-get update
+              sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
           
+          - name: Install ConTeXt LMTX (and mtxrun)
+            run: |
+              mkdir -p $HOME/context
+              cd $HOME/context
+              curl -O https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip
+              unzip context-linux-64.zip
+              rm context-linux-64.zip
+              sh ./install.sh
+
           - name: "Run Pandoc to Generate Tex Files"
             uses: docker://pandoc/latex:3.8
             with:
@@ -20,12 +34,12 @@ jobs:
               args: >-
                 -c "
                 for f in _includes/input_documents/*.md; do
-                  FILE_NAME=`basename ${f} | sed 's/.md//g'`;
-                  echo ${FILE_NAME}.pdf; 
-                  pandoc ${f} --standalone \
+                  FILE_NAME=`basename $$f | sed 's/.md//g'`;
+                  echo $$FILE_NAME.pdf; 
+                  pandoc $$f --standalone \
                   --template pandoc-builder-scripts/styles/green_template.tex \
                   --variable papersize=A4 \
-                  --output external_documents/output/${FILE_NAME}.pdf; \
+                  --output external_documents/output/$FILE_NAME.tex; \
                 done
                 "
           
