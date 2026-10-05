@@ -17,7 +17,7 @@ jobs:
             uses: zauguin/install-texlive@v4
             with:
               packages: >
-                context luatex latex
+                context luatex latex fontsize fontsetup fontscale fontch
           
           - name: Setup Pandoc
             uses: pandoc/actions/setup@v1
@@ -26,23 +26,12 @@ jobs:
             run: |
               for f in _includes/input_documents/*.md; do
                 FILE_NAME=`basename $f | sed 's/.md//g'`;
-                echo $FILE_NAME.pdf; 
-                echo pandoc $f --standalone \
-                --from markdown --to context \
-                --template pandoc-builder-scripts/styles/green_template.tex \
-                --variable papersize=A4 \
-                --output external_documents/output/$FILE_NAME.tex;
                 pandoc $f --standalone \
                 --from markdown --to context \
                 --template pandoc-builder-scripts/styles/green_template.tex \
                 --variable papersize=A4 \
                 --output external_documents/output/$FILE_NAME.tex;
               done
-              
-          - name: "ECHO ConTeXt to Generate PDF"
-            run: | 
-              ls -al external_documents/output/;
-              ls -al external_documents/output/*tex;
           
           - name: "Run ConTeXt to Generate PDF"
             run: |
