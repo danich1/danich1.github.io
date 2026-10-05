@@ -39,8 +39,8 @@ jobs:
               
           - name: "ECHO ConTeXt to Generate PDF"
             run: | 
-              ls external_documents/output/;
-              ls external_documents/output/*tex;
+              ls -al external_documents/output/;
+              ls -al external_documents/output/*tex;
           
           - name: "Run ConTeXt to Generate PDF"
             run: |
