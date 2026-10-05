@@ -13,17 +13,13 @@ jobs:
           - name: "Check out repository code"
             uses: actions/checkout@v4
 
-          - name: Setup Pandoc
-            uses: pandoc/actions/setup@v1
-
           - name: Set up TeX Live
-            uses: zauguin/install-texlive@v3
+            uses: zauguin/install-texlive@v4
             with:
               packages: context
-
-          - name: Generate mtxrun Cache
-            run: |
-              mtxrun --generate
+          
+          - name: Setup Pandoc
+            uses: pandoc/actions/setup@v1
           
           - name: "Run Pandoc and ConTeXt to Generate PDF Files"
             run: |
