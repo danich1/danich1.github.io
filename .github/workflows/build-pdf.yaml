@@ -22,16 +22,30 @@ jobs:
           - name: Setup Pandoc
             uses: pandoc/actions/setup@v1
           
-          - name: "Run Pandoc and ConTeXt to Generate PDF Files"
+          - name: "Run Pandoc to Generate Tex Files"
             run: |
               for f in _includes/input_documents/*.md; do
                 FILE_NAME=`basename $f | sed 's/.md//g'`;
                 echo $FILE_NAME.pdf; 
+                echo pandoc $f --standalone \
+                --template pandoc-builder-scripts/styles/green_template.tex \
+                --variable papersize=A4 \
+                --output external_documents/output/$FILE_NAME.tex; \
                 pandoc $f --standalone \
                 --template pandoc-builder-scripts/styles/green_template.tex \
                 --variable papersize=A4 \
                 --output external_documents/output/$FILE_NAME.tex; \
-                mtxrun --path=external_documents/output --result=$FILE_NAME.pdf --script context $FILE_NAME.tex > external_documents/output/context_$FILE_NAME.log 2>&1; \
+              done
+              
+          - name: "Run ConTeXt to Generate PDF"
+            run: | 
+              for f in external_documents/output/*tex; do
+                echo mtxrun --path=external_documents/output \
+                --result=$FILE_NAME.pdf \
+                --script context $FILE_NAME.tex > external_documents/output/context_$FILE_NAME.log 2>&1; \
+                mtxrun --path=external_documents/output \
+                --result=$FILE_NAME.pdf \
+                --script context $FILE_NAME.tex > external_documents/output/context_$FILE_NAME.log 2>&1; \
               done
           
           - name: Push Artifact
