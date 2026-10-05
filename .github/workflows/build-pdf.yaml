@@ -33,7 +33,7 @@ jobs:
                 FILE_NAME=`basename $f | sed 's/.md//g'`;
                 pandoc $f --standalone \
                 --from markdown --to context \
-                --template pandoc-builder-scripts/styles/purple_template.tex \
+                --template pandoc-builder-scripts/styles/green_template.tex \
                 --variable papersize=A4 \
                 --output external_documents/output/$FILE_NAME.tex;
               done
