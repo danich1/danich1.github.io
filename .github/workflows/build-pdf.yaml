@@ -28,20 +28,15 @@ jobs:
               sh ./install.sh
 
           - name: "Run Pandoc to Generate Tex Files"
-            uses: docker://pandoc/latex:3.8
-            with:
-              entrypoint: /bin/sh
-              args: >-
-                -c "
-                for f in _includes/input_documents/*.md; do
-                  FILE_NAME=`basename $$f | sed 's/.md//g'`;
-                  echo $$FILE_NAME.pdf; 
-                  pandoc $$f --standalone \
-                  --template pandoc-builder-scripts/styles/green_template.tex \
-                  --variable papersize=A4 \
-                  --output external_documents/output/$FILE_NAME.tex; \
-                done
-                "
+            run: |
+              for f in _includes/input_documents/*.md; do
+                FILE_NAME=`basename $f | sed 's/.md//g'`;
+                echo $FILE_NAME.pdf; 
+                pandoc $f --standalone \
+                --template pandoc-builder-scripts/styles/green_template.tex \
+                --variable papersize=A4 \
+                --output external_documents/output/$FILE_NAME.tex; \
+              done
           
           - name: Push Artifact
             uses: actions/upload-artifact@v4
