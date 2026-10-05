@@ -16,22 +16,15 @@ jobs:
           - name: Setup Pandoc
             uses: pandoc/actions/setup@v1
 
-          - name: Setup ConTeXt
-            uses: jreleaser/setup-context@v1
+          - name: Set up TeX Live
+            uses: zauguin/install-texlive@v3
+            with:
+              packages: context
 
           - name: Generate mtxrun Cache
             run: |
               mtxrun --generate
           
-          - name: Install ConTeXt LMTX (and mtxrun)
-            run: |
-              mkdir -p $HOME/context
-              cd $HOME/context
-              curl -O https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip
-              unzip context-linux-64.zip
-              rm context-linux-64.zip
-              sh ./install.sh
-
           - name: "Run Pandoc and ConTeXt to Generate PDF Files"
             run: |
               for f in _includes/input_documents/*.md; do
