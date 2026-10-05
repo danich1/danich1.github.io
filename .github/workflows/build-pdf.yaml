@@ -37,17 +37,23 @@ jobs:
                 --output external_documents/output/$FILE_NAME.tex; \
               done
               
-          - name: "Run ConTeXt to Generate PDF"
+          - name: "ECHO ConTeXt to Generate PDF"
             run: | 
-              for f in external_documents/output/*tex; do
+              for f in external_documents/output/*.tex; do
                 echo mtxrun --path=external_documents/output \
                 --result=$FILE_NAME.pdf \
-                --script context $FILE_NAME.tex > external_documents/output/context_$FILE_NAME.log 2>&1; \
-                mtxrun --path=external_documents/output \
-                --result=$FILE_NAME.pdf \
-                --script context $FILE_NAME.tex > external_documents/output/context_$FILE_NAME.log 2>&1; \
+                --script context $FILE_NAME.tex > external_documents/logs/context_$FILE_NAME.log 2>&1; \
               done
           
+          - name: "Run ConTeXt to Generate PDF"
+            run: |
+              for f in external_documents/output/*.tex; do
+                FILE_NAME=`basename $f | sed 's/.tex//g'`;
+                mtxrun --path=external_documents/output \
+                --result=$FILE_NAME.pdf \
+                --script context $FILE_NAME.tex > external_documents/logs/context_$FILE_NAME.log 2>&1; \
+              done
+
           - name: Push Artifact
             uses: actions/upload-artifact@v4
             with:
@@ -62,3 +68,5 @@ jobs:
                 name: failure-logs
                 path: |
                   /home/runner/texlive/texmf-var/web2c/
+                  external_documents/logs/
+                  
