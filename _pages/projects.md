@@ -1,14 +1,22 @@
 ---
 permalink: /projects/
 layout: archive
-title: Projects
+title: Graduate School Projects
 website_one:
     - image_path: "https://raw.githubusercontent.com/greenelab/annorxiver_manuscript/main/content/images/figure-pieces/homescreen_doi.png"
       title: "Preprint similarity search"
       url: "https://greenelab.github.io/preprint-similarity-search"
       excerpt: |
         Provides users with a listing of linguistically similar journals and papers to a preprint of interest.
-        Here is more a description
+      btn_label: |
+       <i class="fab fa-firefox-browser"></i> <i class="fab fa-chrome"></i> Visit Websites
+      btn_class: "btn--primary"
+website_two:
+    - image_path: "https://raw.githubusercontent.com/greenelab/word-lapse/main/app/public/share-thumbnail.jpg?raw=true"
+      title: "Preprint similarity search"
+      url: "https://greenelab.github.io/word-lapse/"
+      excerpt: |
+        Provides users insight into how biomedical words change overtime.
       btn_label: |
        <i class="fab fa-firefox-browser"></i> <i class="fab fa-chrome"></i> Visit Websites
       btn_class: "btn--primary"
@@ -48,6 +56,7 @@ research_projects_four:
 
 ## Website Resources
 
+{% include feature_row id="website_two" type="left" %}
 {% include feature_row id="website_one" type="left" %}
 
 

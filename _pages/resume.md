@@ -1,5 +1,5 @@
 ---
-permalink: /resume/
+permalink: /
 layout: resume
 title: Resume
 ---

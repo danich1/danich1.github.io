@@ -1,19 +1,18 @@
 David Nicholson
 ============
 
-dnicholson329@gmail.com • 412-607-6313 • Lansdowne PA, 19050 
+dnicholson329@gmail.com • 412-607-6313 • Lansdowne, PA (Open to Remote)
 
 Summary
 -------
-Data Scientist with 15+ years of programming experience and 6+ years of experience in data analytics and visualization. My data analytics experience consisted of using document embeddings to gain further insight into biomedical research. Recently, my experience has grown to include working with large language models, clustering, and other analytics to help government clients better understand biomedical research.
+Data Scientist experienced in architecting machine learning workflows, fine-tuning LLMs, and managing multi-tenant database systems. Adept at bridging technical data engineering with business decision-making through interactive dashboards, automated metadata pipelines, and production-ready NLP models.
 
 Skills & Proficiency 
 -------------------- 
-- **Machine Learning & NLP**: PyTorch, TensorFlow, Scikit-Learn, Transformers, Large Language Models, Clustering (HDBSCAN, K-Means), Dimensionality Reduction (UMAP), Document Embeddings, Knowledge Graphs, Entity Resolution, Text Extraction and Mining, Automatic Metadata Extraction, Weak Supervision (Snorkel)
+- **Machine Learning & NLP**: PyTorch, TensorFlow, Scikit-Learn, Transformers, Large Language Models (Claude, Gemini, Ollama), Clustering (HDBSCAN, K-Means), Dimensionality Reduction (UMAP), Document Embeddings, Knowledge Graphs, Entity Resolution, Text Mining and Extraction, Automatic Metadata Extraction, Weak Supervision (Snorkel)
 - **Data Engineering & Systems**: Google Bigquery, PostgreSQL, ETL/ELT Pipelines, Parallel Processing (Dask), Linux Server Maintenance
-- **Dashboards & Visualization**: Plotly Dash, Seaborn/Matplotlib, Web Applications (Flask/FastAPI)
+- **Dashboards & Visualization**: Plotly/Dash, Seaborn/Matplotlib, Web Applications (Flask/FastAPI)
 - **Core Infrastructure:** Python, SQL, Git, Docker, CI/CD, AWS/GCP
-
 
 Professional Experience
 ----------
@@ -21,22 +20,21 @@ Professional Experience
 **Digital Science & Research Solutions, Ltd.**  
 June 2022 - Present  
 
-- Constructed a software package to enable fast clustering of document sets, cluster hierarchy generation, and cluster metadata (labels from LLMs, various metrics such as Growth Rate, etc.).
-- Maintained an ETL pipeline design to extract and update over 100GB of document data for the National Institute of Health (NIH) clientele.
-- Designed and implemented a data analysis pipeline designed to cluster an 818k+ document set centered on women’s health for a client affiliated with the National Institute of Health (NIH).
-- Constructed an ETL pipeline designed to detect cancer drug treatments using a 64k+ biomedical document set for a pharmaceutical client.
-- Back-tested vector databases were used to determine which database is most optimal for handling 10M+ document embedding vectors.
-- Constructed a pipeline that used deep learning and dimensionality reduction models to uncover research topics and trends within a 20M+ document set for government clients.
+- **LLM & Automated Annotation:** Constructed an LLM-backed document metadata and labeling pipeline to automatically fetch, categorize and summarize clusters across multiple document types for United States Federal Research Funding Agencies and Institutes.
+- **Vector Databases & Scalable Search:** Conducted benchmarking across enterprise vector databases to optimize query latency and storage efficiency for **10M+ high-dimensional document vectors**.
+- **ETL & Big Data Engineering:** Engineered automated ETL pipelines to extract external unstructured web/literature data alongside secure ingestion and processing of HHS-affiliated client's data using Python and SQL. Also, maintained and modified other ETL pipelines for processing **100GB+** of unstructured literature data. 
+- **Dashboards & Reporting:** Built interactive dashboards (Plotly/Streamlit) for internal use to explore dynamic topic clusters, research trends, and growth metrics in real time.
 
 
 **Graduate Researcher Scientist**  
 **University of Pennsylvania**  
 August 2016 - June 2022  
 
-- Designed and implemented parallel processing pipelines that achieved a 3x speed-up when analyzing terabytes of biomedical text.
-- Used weak supervision for a 1.5x speed-up when training deep learning models (recurrent neural networks and transformers) to extract biomedical relationships from biomedical text.
-- Applied a k-nearest-neighbor model to provide scientists with a web service that lists journals linguistically similar to a preprint of interest.
-- Applied a time series analysis to discover over 20,000 different time points where words have changed their semantic meaning.
+- **Large-Scale NLP & Computational Modeling:** Designed and deployed unsupervised NLP frameworks (**Word2Vec, FastText**) to analyze over 20,000 temporal semantic shifts across millions of unstructured scientific documents.
+- **Pipeline Engineering & Big Data:** Built automated, parallelized Python pipelines to ingest, clean, and analyze **multi-gigabyte genomic and textual datasets**, reducing data processing bottlenecks by over 40%.
+- **Statistical Modeling & Algorithm Optimization:** Applied high-dimensional dimensionality reduction (**UMAP**) and clustering algorithms (**K-Means**) to extract hidden patterns in complex biological networks.
+- **Cross-Functional Collaboration & Technical Communication:** Collaborated with cross-departmental teams of bioinformaticians, software engineers, and domain experts; presented complex quantitative findings to non-technical stakeholders and external partners.
+- **Software Development & Maintainability:** Maintained open-source codebase repositories on GitHub using strict version control (Git/GitHub), unit testing, and Docker containerization.
 
 
 Publications

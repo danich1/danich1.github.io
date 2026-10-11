@@ -14,10 +14,10 @@ Github • Python • R • SQL • Data Visualization • Machine Learning • 
 Education
 ---------
 **Doctor of Philosophy (Ph.D.), Genomics and Computational Biology**; University of Pennsylvania (Philadelphia, PA) 
-
 **Postbaccalaureate Program (Penn Prep)**; University of Pennsylvania (Philadelphia, PA)
-
 **Bachelor of Science, Computer Science**; University of Maryland Baltimore County (Baltimore, MD)
+**Winchester Thurston School**: Pittsburgh, PA
+**St. Edmunds Academy**: Pittsburgh, PA
 
 Publications
 ------------
@@ -42,10 +42,15 @@ Professional Experience
 **Digital Science & Research Solutions, Ltd.**  
 June 2022 - Present  
 
-- Constructed a textual processing pipeline to detect cancer drug treatments using a 64k biomedical document set for pharmaceutical clients.
-- Backtested vector databases to determine which database is most optimal in dealing with 10M+ document embedding vectors. 
-- Utilized a combination of a deep-learning based language model and dimensionality reduction algorithm to uncover research topics and trends for various government funders and clients.
-- Maintained dashboards that summarized research results and trends for government funders and clients
+- Constructed a software package to enable fast clustering of document sets, cluster hierarchy generation, and cluster metadata (labels from LLMs, various metrics such as Growth Rate, etc.).
+- Constructed software packages for calculating cluster metrics using bigquery, but can be extended to other databasees like Redshift and Postgres.
+- Maintained an ETL pipeline design to extract and update over 100GB of document data for the National Institute of Health (NIH) clientele.
+- Designed and implemented a data analysis pipeline designed to cluster an 818k+ document set centered on women’s health for a ARPA-H (HHS affiliated).
+- Constructed an ETL pipeline designed to detect cancer drug treatments using a 64k+ biomedical document set for a pharmaceutical client.
+- Back-tested vector databases were used to determine which database is most optimal for handling 10M+ document embedding vectors.
+- Constructed a pipeline that used deep learning and dimensionality reduction models to uncover research topics and trends within a 20M+ document set for government clients.
+- Hackathon where we worked on citation sentiment for predicting how citaitons were used in full text. Gemini was the model, but really should be for Ollama and open source models (cheaper).
+- Created pipeline for a dashboard that categorizes arpa-h data into gropus defined by Field Of Research categories (SPACE/PACE). Do not put acronym in resume.
 
 **Graduate Researcher Scientist**  
 **University of Pennsylvania**  
@@ -53,8 +58,8 @@ August 2016 - June 2022
 
 - Designed and implemented parallel processing pipelines that achieved a 3x speed-up when analyzing terabytes of biomedical text.
 - Used weak supervision for a 1.5x speed-up when training deep learning models (recurrent neural networks and transformers) to extract biomedical relationships from biomedical text.
-- Applied a k-nearest-neighbor model to provide scientists with a web service that identifies a listing of journals linguistically similar to a preprint of interest.
-- Applied a time series analysis to discover over 20,000 different timepoints where words have changed their semantic meaning.
+- Applied a k-nearest-neighbor model to provide scientists with a web service that lists journals linguistically similar to a preprint of interest.
+- Applied a time series analysis to discover over 20,000 different time points where words have changed their semantic meaning.
 
 **Postbaccalaureate Researcher**  
 **University of Pennsylvania**  
