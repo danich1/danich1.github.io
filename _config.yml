@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "David Nicholson"
   avatar           : "/assets/images/profile-small-suit.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist who utilizes deep learning models and natural language processing techniques to analyze research text and trends."
+  bio              : "Data Scientist specializing in LLM applications, end-to-end NLP pipelines, scalable database architectures, and interactive analytics dashboards."
   location         : 
   email            : 
   links:
